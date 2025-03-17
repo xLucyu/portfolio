@@ -1,10 +1,10 @@
-import "./mainsite/index.tsx"
+import Main from "./mainsite/index.tsx";
 
 function App() {
  
   return (
     <>
-    <div>Tesqwfqwf</div>
+    <Main/>
     </>
   )
 }

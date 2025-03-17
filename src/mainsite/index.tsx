@@ -2,7 +2,7 @@ import "./style.css";
 
 function mainSite() {
   return (
-    <div className = "body">
+    <div className = "title">
       Hello
     </div>
   );
