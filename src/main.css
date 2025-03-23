@@ -1,5 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background: linear-gradient(135deg, #121212, #1a1a1a, #292929);
+  color: white;
+
 }
