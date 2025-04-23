@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import "./style.css";
 import { updateTime } from "./getTime";
+import DropdownMenu from "./dropdown.tsx";
 
-function mainSite() {
+export function mainSite() {
 
   const [time, setTime] = useState<string>(updateTime());
 
@@ -15,14 +16,18 @@ function mainSite() {
   }, []);
 
   return (
-    <div className = "container">
-      <div className = "titleBox">
+    <>
+      <div className = "textBox">
         <a href = "/" className = "titleText">
           <div> Lucy's Portfolio </div>
         </a>
+        <div className = "pronouns"> she/her </div>
         <div className = "time"> {time} </div>
       </div>
-    </div>
+      <div> {DropdownMenu()} </div>
+      <img src="/src/picture.png" className = "profilePicture"/>
+        
+    </>
   );
 }
 

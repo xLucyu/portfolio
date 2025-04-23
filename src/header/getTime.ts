@@ -1,4 +1,4 @@
-export function updateTime() {
+export function updateTime(): string {
 
   const now = new Date();
 
@@ -17,5 +17,3 @@ export function updateTime() {
 
   return `${month}/${day} - ${hours}:${minutes}:${seconds} ${zone}`;
 }
-
-export default updateTime();

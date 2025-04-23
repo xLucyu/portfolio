@@ -1,10 +1,12 @@
-import Main from "./mainsite/index.tsx";
+import Header from "./header/index.tsx";
 
 function App() {
  
   return (
     <>
-    <Main/>
+    <div className = "container">
+      <Header/>
+    </div>
     </>
   )
 }
