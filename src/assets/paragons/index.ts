@@ -12,7 +12,7 @@ import {
  } from "./static/index";
 import { Paragon } from "../../types/paragon";
 
-const paragons: Record<string, Paragon> = {
+export const paragons: Record<string, Paragon> = {
   "Ace": AceMonkey,
   "Boomerang": BoomerangMonkey,
   "Buccaneer": Buccaneer,
