@@ -5,8 +5,8 @@ interface ParagonAttack {
     moab?: number;
     boss?: number;
     eliteBoss?: number;
-    pierce: number;
-    speed: number;
+    pierce?: number;
+    speed?: number;
 }
 
 export interface Paragon {

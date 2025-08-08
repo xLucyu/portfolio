@@ -37,6 +37,11 @@ export const Buccaneer = {
             eliteBoss: 800,
             pierce: 10,
             speed: 1.8
+        },
+        {
+            name: "Mega Hook",
+            base: 0,
+            cooldown: 30
         }
     ]
 }
