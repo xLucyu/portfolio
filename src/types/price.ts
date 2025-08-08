@@ -1,4 +1,4 @@
-export interface PriceDependencies {
+export interface PriceFactors {
   totems: number;
   pops: number;
   income: number;
