@@ -14,4 +14,5 @@ export interface Paragon {
     price: number;
     image: string;
     attacks: ParagonAttack[];
+    cooldown?: number;
 }
