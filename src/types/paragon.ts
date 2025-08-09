@@ -2,6 +2,7 @@ interface ParagonAttack {
     name: string;
     base?: number;
     ceramic?: number;
+    fortified?: number;
     camo?: number;
     moab?: number;
     boss?: number;

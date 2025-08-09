@@ -48,6 +48,26 @@ export const WizardMonkey = {
             cooldown: 40,
         },
         {
+            name: "Explosion Burn",
+            base: 2500,
+            eliteBoss: 5000,
+            pierce: 1,
+            speed: 0.5
+        },
+        {
+            name: "BFB",
+            base: 700,
+            eliteBoss: 1400,
+            pierce: 50
+        },
+        {
+            name: "ZOMG",
+            base: 4000,
+            boss: 12000,
+            eliteBoss: 24000,
+            pierce: 200
+        },
+        {
             name: "Arcane Metamorphosis",
             cooldown: 120,
         },
