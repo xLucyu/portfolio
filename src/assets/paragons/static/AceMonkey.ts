@@ -34,5 +34,4 @@ export const AceMonkey = {
             cooldown: 50
         }
     ]
-
 }
